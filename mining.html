@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Account - BTCMiner - Bitcoin miner with fully automatic process</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Jost.css">
+    <link rel="stylesheet" href="assets/css/Poppins.css">
+    <link rel="stylesheet" href="assets/css/Source%20Sans%20Pro.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/web/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="assets/css/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="assets/css/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+    <link rel="stylesheet" href="assets/css/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/css/popup-overlay-plugin/style.css">
+    <link rel="stylesheet" href="assets/css/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/css/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/css/theme/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="assets/css/formstyler/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/css/formstyler/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/css/datepicker/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="assets/css/theme/css/style-1.css">
+    <link rel="stylesheet" href="assets/css/mobirise/css/mbr-additional-1.css">
+    <link rel="stylesheet" href="assets/css/as-pie-progress/css/progress.min.css">
+    <link rel="stylesheet" href="assets/css/animate-square-loading_v1_1.css">
+    <link rel="stylesheet" href="assets/css/animate-square-waiting_v1_1.css">
+    <link rel="stylesheet" href="assets/css/animation-aurora.css">
+    <link rel="stylesheet" href="assets/css/card-animate-border.css">
+    <link rel="stylesheet" href="assets/css/card-blue.css">
+    <link rel="stylesheet" href="assets/css/card-faq.css">
+    <link rel="stylesheet" href="assets/css/card-features.css">
+    <link rel="stylesheet" href="assets/css/card-intro.css">
+    <link rel="stylesheet" href="assets/css/card-pricing.css">
+    <link rel="stylesheet" href="assets/css/card-product.css">
+    <link rel="stylesheet" href="assets/css/card-profile.css">
+    <link rel="stylesheet" href="assets/css/card-red.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbar">
+        <div class="container"><a class="navbar-brand" href="./">
+                <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="me-1 mb-1">
+                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z"></path>
+                    </svg>BTCMiner</h4>
+            </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-justify fs-1">
+                    <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+                </svg></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Account</a></li>
+                    <li class="nav-item"><a class="nav-link" href="payouts.html">Payouts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contest.html">Contest</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                </ul>
+                <div><a class="btn btn-sm btn-primary-outline" role="button" href="?p=upgrade"><i class="icon-rocket me-1"></i>UPGRADE</a></div>
+            </div>
+        </div>
+    </nav>
+    <section id="header" class="header3 cid-s1YNmF9EpW mbr-parallax-background" style="background: url(&quot;assets/img/bg-account.jpg&quot;);">
+        <div class="mbr-overlay" style="opacity: 0.80;background-color: rgb(0, 0, 0);"></div>
+        <div class="container align-center">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10 mbr-white">
+                    <h1 class="display-1 text-uppercase mbr-section-title mbr-white pb-3 mbr-fonts-style"><strong>Account</strong></h1>
+                    <p class="mbr-text pb-4 mbr-white mbr-regular mbr-fonts-style display-5">BTCMiner members already received<br><strong>₿255.0842</strong><br>Since launch 113 days ago<br>Update Daily<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pop-account" class="section-pop">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card-animate-border p-1"><span class="card-animate-border-top"></span><span class="card-animate-border-bottom"></span><span class="card-animate-border-right"></span><span class="card-animate-border-left"></span>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 col-md-12 col-lg-12">
+                                            <div>
+                                                
+                                                    
+                                                    <h5 id="name">Offline Mining Disabled <a href="upgrade.html">[Upgrade Account]</a></h5>
+                                                    
+                                            
+                                            
+                                                <hr>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="square-loading me-1"><span class="square-loading-box"></span><span class="square-loading-box"></span><span class="square-loading-box"></span><span class="square-loading-box"></span></div>
+                                                    <h5 class="display-5 text-uppercase m-0">Balance:&nbsp;<span id="number" style="line-height: 1;">0.0001</span>&nbsp;BTC</h5>
+                                                </div>
+                                                <p>Profit per minute: <span id="user_speed_minute">40</span>&nbsp;satoshi</p>
+                                                <p>Profit per day: <span id="user_speed_daily">0.00057594</span>&nbsp;BTC</p><input type="hidden" id="user_balance" value="462697"><input type="hidden" id="user_level" value="0">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-end">
+                                        <div class="col"><a class="btn btn-secondary btn-sm m-0 me-2" role="button" href="withdraw.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor" class="me-1">
+                                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                    <path d="M512 64C547.3 64 576 92.65 576 128V384C576 419.3 547.3 448 512 448H64C28.65 448 0 419.3 0 384V128C0 92.65 28.65 64 64 64H512zM272 192C263.2 192 256 199.2 256 208C256 216.8 263.2 224 272 224H496C504.8 224 512 216.8 512 208C512 199.2 504.8 192 496 192H272zM272 320H496C504.8 320 512 312.8 512 304C512 295.2 504.8 288 496 288H272C263.2 288 256 295.2 256 304C256 312.8 263.2 320 272 320zM164.1 160C164.1 148.9 155.1 139.9 143.1 139.9C132.9 139.9 123.9 148.9 123.9 160V166C118.3 167.2 112.1 168.9 108 171.1C93.06 177.9 80.07 190.5 76.91 208.8C75.14 219 76.08 228.9 80.32 237.8C84.47 246.6 91 252.8 97.63 257.3C109.2 265.2 124.5 269.8 136.2 273.3L138.4 273.9C152.4 278.2 161.8 281.3 167.7 285.6C170.2 287.4 171.1 288.8 171.4 289.7C171.8 290.5 172.4 292.3 171.7 296.3C171.1 299.8 169.2 302.8 163.7 305.1C157.6 307.7 147.7 309 134.9 307C128.9 306 118.2 302.4 108.7 299.2C106.5 298.4 104.3 297.7 102.3 297C91.84 293.5 80.51 299.2 77.02 309.7C73.53 320.2 79.2 331.5 89.68 334.1C90.89 335.4 92.39 335.9 94.11 336.5C101.1 339.2 114.4 343.4 123.9 345.6V352C123.9 363.1 132.9 372.1 143.1 372.1C155.1 372.1 164.1 363.1 164.1 352V346.5C169.4 345.5 174.6 343.1 179.4 341.9C195.2 335.2 207.8 322.2 211.1 303.2C212.9 292.8 212.1 282.8 208.1 273.7C204.2 264.7 197.9 258.1 191.2 253.3C179.1 244.4 162.9 239.6 150.8 235.9L149.1 235.7C135.8 231.4 126.2 228.4 120.1 224.2C117.5 222.4 116.7 221.2 116.5 220.7C116.3 220.3 115.7 219.1 116.3 215.7C116.7 213.7 118.2 210.4 124.5 207.6C130.1 204.7 140.9 203.1 153.1 204.1C157.5 205.7 171 208.3 174.9 209.3C185.5 212.2 196.5 205.8 199.3 195.1C202.2 184.5 195.8 173.5 185.1 170.7C180.7 169.5 170.7 167.5 164.1 166.3L164.1 160z"></path>
+                                                </svg>WITHDRAW</a><a class="btn btn-primary btn-sm m-0" role="button" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="me-1">
+                                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                    <path d="M288 256C288 273.7 273.7 288 256 288C238.3 288 224 273.7 224 256V32C224 14.33 238.3 0 256 0C273.7 0 288 14.33 288 32V256zM80 256C80 353.2 158.8 432 256 432C353.2 432 432 353.2 432 256C432 201.6 407.3 152.9 368.5 120.6C354.9 109.3 353 89.13 364.3 75.54C375.6 61.95 395.8 60.1 409.4 71.4C462.2 115.4 496 181.8 496 255.1C496 388.5 388.5 496 256 496C123.5 496 16 388.5 16 255.1C16 181.8 49.75 115.4 102.6 71.4C116.2 60.1 136.4 61.95 147.7 75.54C158.1 89.13 157.1 109.3 143.5 120.6C104.7 152.9 80 201.6 80 256z"></path>
+                                                </svg>LOG OUT</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="referral" class="section-black">
+        <div class="container">
+            <div class="row card-product">
+                <div class="col-md-12 col-lg-6 md-pb"><img src="assets/img/19.png" alt=""></div>
+                <div class="col-md-12 col-lg-6 md-pb">
+                    <div class="title-wrapper align-left">
+                        <div class="line"></div>
+                        <h3 class="display-2 text-uppercase mbr-section-title mbr-white mbr-semibold pb-3 mbr-fonts-style">Affiliate Link</h3>
+                        <h4 class="mbr-section-title mbr-white mbr-semibold pb-3 mbr-fonts-style">https://www.btcminer.live/21204287</h4>
+                        <div class="line"></div>
+                        <h3 class="display-2 mbr-section-title mbr-white mbr-semibold pb-3 mbr-fonts-style">EARN LIFETIME COMMISSION UP TO 50%</h3>
+                        <p class="mbr-text pb-3 mbr-white mbr-light mbr-fonts-style display-7">You can invite your friends or share your referral link and banners on social networks, blogs or forums online. For massive results we recommend you to advertise your referral link on platforms such as A-ads.com. Participate in weekly referral contest to win&nbsp;5 BTC every week. You can also Upgrade BTCMiner to increase affiliate rate up to 50%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="info" class="section-dark">
+        <div class="container">
+            <div class="row card-intro">
+                <div class="col-md-12 col-lg-6 md-pb">
+                    <div class="title-wrapper align-left">
+                        <div class="line"></div>
+                        <h3 class="display-2 text-uppercase mbr-section-title mbr-white mbr-semibold pb-3 mbr-fonts-style">About BTCMiner</h3>
+                        <p class="mbr-text pb-3 mbr-white mbr-regular mbr-fonts-style display-7">Bitcoin mining cloud mining without holding customer's digital assets</p>
+                        <p class="mbr-text pb-3 mbr-white mbr-regular mbr-fonts-style display-7">Secure You are the collector of your own mined coins. We do not keep user's coins.</p>
+                        <p class="mbr-text pb-3 mbr-white mbr-regular mbr-fonts-style display-7">Convenient Mining machines can be controlled from anywhere in the world.</p>
+                        <p class="mbr-text pb-3 mbr-white mbr-regular mbr-fonts-style display-7">Confidence with telecommunication service provider standards</p>
+                        <p class="mbr-text pb-3 mbr-white mbr-regular mbr-fonts-style display-7">ASIC&amp;GPU Co-Location Service<br>Bitcoin Cloud Mining Service<br>Wholesale asic mining hardware 50+ models and worldwide shipping.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 md-pb"><img src="assets/img/blue-bitcoin.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="section-footer animation-aurora">
+        <div class="container">
+            <div id="histats_counter" style="position: absolute;z-index: -1;"></div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <p class="mbr-text1 align-left mbr-fonts-style align-left display-7">20-22 Wenlock Road, London, England, N1 7GU</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <p class="mbr-text2 align-right mbr-fonts-style align-left display-7">© BTCMiner EU LTD, 2016-2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="animation-aurora-one"></div>
+        <div class="animation-aurora-five"></div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/mbr.bootstrap.min.js"></script>
+    <script src="assets/js/mbr.jarallax.min.js"></script>
+    <script src="assets/js/mbr.script-1.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/miner_v2_2.js"></script>
+    <script src="assets/js/upgrade.js"></script>
+    <script>
+        // Stay
+        window.onload = function() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const name = urlParams.get('name');
+          document.getElementById('name').value = name;
+        };
+      </script>
+       <script>
+        // JavaScript code
+        function generateNumber() {
+          const generatedNumber = Math.random();
+          const storedNumbers = JSON.parse(localStorage.getItem('generatedNumbers')) || [];
+          storedNumbers.push(generatedNumber);
+          localStorage.setItem('generatedNumbers', JSON.stringify(storedNumbers));
+          displayNumber(generatedNumber);
+        }
+    
+        const incrementValue = 0.000000032;
+        let currentValue = parseFloat(localStorage.getItem('currentValue')) || 0.00413;
+    
+        const numberElement = document.getElementById('number');
+    
+        function updateNumber() {
+          currentValue += incrementValue;
+          numberElement.textContent = currentValue.toFixed(8);
+          localStorage.setItem('currentValue', currentValue.toFixed(8));
+          setTimeout(updateNumber, 2000); // Update every 2 seconds
+        }
+    
+        updateNumber();
+      </script>
+</body>
+
+</html>

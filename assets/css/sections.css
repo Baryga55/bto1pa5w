@@ -1,0 +1,51 @@
+.section-pop {
+  position: relative;
+  background: #111111;
+  color: #ffffff;
+  margin-bottom: -50px;
+  z-index: 1;
+}
+
+.section-pop .card {
+  background: RGBA(55,58,60,1);
+}
+
+.section-pop .red {
+  background: linear-gradient(to left, #770000, #e2090d);
+}
+
+.section-pop .container {
+  opacity: 0.8;
+  color: white;
+  top: -50px;
+  z-index: 1;
+  align-items: center;
+  position: relative;
+}
+
+.section-black {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #111111;
+  color: white;
+}
+
+.section-dark {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #191919;
+  color: white;
+}
+
+.section-footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #040402;
+  color: #999999;
+}
+
+.section-footer p {
+  padding: 0px;
+  margin: 0px;
+}
+

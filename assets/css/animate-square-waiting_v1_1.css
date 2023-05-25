@@ -1,0 +1,41 @@
+.square-waiting {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.square-waiting-box {
+  top: 3px;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  animation: square-waiting-box 1s linear infinite;
+}
+
+.square-waiting-box:nth-child(1) {
+  animation-delay: 0.25s;
+}
+
+.square-waiting-box:nth-child(2) {
+  animation-delay: 0.50s;
+  left: 25%;
+}
+
+.square-waiting-box:nth-child(3) {
+  animation-delay: 0.75s;
+  left: 50%;
+}
+
+.square-waiting-box:nth-child(4) {
+  animation-delay: 1s;
+  left: 75%;
+}
+
+@keyframes square-waiting-box {
+  from {
+    background: #aaaaaa;
+  }
+}
+

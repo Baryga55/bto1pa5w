@@ -1,0 +1,97 @@
+.card-faq {
+  position: relative;
+}
+
+.card-faq p {
+  color: #767676;
+  padding: 0;
+  letter-spacing: 0px;
+}
+
+.card-faq .panel-title {
+  border-bottom: 2px solid #e2090d;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.card-faq .collapsed {
+  border: none;
+}
+
+.card-faq .collapsed span {
+  transform: rotate(0deg);
+}
+
+.card-faq span {
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  transform: rotate(45deg);
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.card-faq .panel-body {
+  padding-top: 0.5rem;
+}
+
+.card-faq .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+
+.card-faq .card .card-header {
+  border-radius: 0px;
+  margin: 0.5rem 0;
+  border: 0px;
+  background: #191919;
+  padding: 0;
+}
+
+.card-faq .card .card-header a.panel-title {
+  margin-bottom: 0;
+  margin-top: -1px;
+  font-style: normal;
+  text-decoration: none !important;
+  line-height: normal;
+}
+
+.card-faq .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+
+.card-faq .card .card-header a.panel-title h4 {
+  padding: 1.3rem 2rem;
+  margin-bottom: 0;
+}
+
+.card-faq .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+}
+
+.card-faq .panel-text {
+  color: #767676;
+}
+
+.card-faq H4 {
+  color: #999999;
+}
+
+.card-faq H2 {
+  color: #ffffff;
+}
+
+.card-faq .mbr-section-text {
+  color: #999999;
+}
+
+.card-faq .faqPlusAppAnswer {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-family: 'Jost', sans-serif;
+  padding: 10px;
+}
+

@@ -1,0 +1,104 @@
+.card-pricing {
+  background: transparent;
+}
+
+.card-pricing .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #999999;
+  padding: 0.7rem 0;
+}
+
+.card-pricing .item p {
+  margin: 0;
+}
+
+.card-pricing .card-wrapper {
+  background: #191919;
+  background: RGBA(55,58,60,1);
+  padding: 3rem 2rem;
+}
+
+@media (max-width: 767px) {
+  .card-pricing .card-wrapper {
+    padding: 3rem 1rem;
+  }
+}
+
+.card-pricing .price {
+  border: 1px solid #999999;
+  border-radius: 40px;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.card-pricing .item-icon {
+  font-size: 1rem;
+  color: currentColor;
+}
+
+.card-pricing .icon-wrapper .mbr-iconfont {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 1rem;
+  background: linear-gradient(to left, #fc5130, #e2090d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-pricing .card-text {
+  color: #999999;
+}
+
+.card-pricing .item-text {
+  color: #ffffff;
+}
+
+.card-pricing .card {
+  z-index: 1;
+  min-height: 200px;
+  margin-bottom: 2rem;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.card-pricing .card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.card-pricing .card:hover .icon-wrapper .mbr-iconfont, .card-pricing .card:hover .item-icon {
+  color: #ffffff !important;
+  border-color: #ffffff;
+  -webkit-background-clip: transparent;
+  -webkit-text-fill-color: unset;
+}
+
+.card-pricing .card:hover .btn {
+  background: transparent!important;
+  border: 1px solid #999999 !important;
+}
+
+.card-pricing .card:hover .card-wrapper {
+  background: linear-gradient(to left, #fc5130, #e2090d);
+  color: #ffffff !important;
+}
+
+.card-pricing .card:hover .card-wrapper .price, .card-pricing .card:hover .card-wrapper .item-text, .card-pricing .card:hover .card-wrapper .card-title {
+  color: #ffffff !important;
+}
+
+.card-pricing .item-text, .card-pricing .item-icon {
+  color: #999999;
+}
+
+.card-pricing .main-text {
+  color: #999999;
+}
+

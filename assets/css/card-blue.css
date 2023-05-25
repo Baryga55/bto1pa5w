@@ -1,0 +1,115 @@
+.card-blue {
+  background: transparent;
+}
+
+.card-blue img {
+  width: 100%;
+  transition: all 0.6s ease-in-out;
+  height: 260px;
+  object-fit: cover;
+}
+
+.card-blue .link-wrapper {
+  margin-bottom: 1rem;
+}
+
+.card-blue .link-wrapper .mbr-iconfont {
+  border: 1px solid #999999;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 0.8rem;
+  color: #999999;
+}
+
+.card-blue .img-wrapper .mbr-iconfont {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 1rem;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-blue .card-wrapper {
+  background: #111111;
+  padding: 2rem;
+}
+
+@media (max-width: 767px) {
+  .card-blue .card-wrapper {
+    padding: 2rem 1rem;
+  }
+}
+
+.card-blue .first:hover:before {
+  content: none;
+}
+
+.card-blue .first:before {
+  position: absolute;
+  top: -1rem;
+  z-index: -1;
+  left: 0rem;
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+  content: '';
+}
+
+.card-blue .last:hover:after {
+  content: none;
+}
+
+.card-blue .last:after {
+  position: absolute;
+  bottom: -1rem;
+  right: 0rem;
+  width: 300px;
+  z-index: -1;
+  height: 200px;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+  content: '';
+}
+
+.card-blue .mbr-section-text {
+  color: #999999;
+}
+
+.card-blue .card {
+  z-index: 1;
+  min-height: 200px;
+  margin-bottom: 2rem;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.card-blue .card .img-wrapper {
+  overflow: hidden;
+}
+
+.card-blue .card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.card-blue .card:hover .mbr-iconfont {
+  color: #ffffff !important;
+  border-color: #ffffff;
+  -webkit-background-clip: transparent;
+  -webkit-text-fill-color: unset;
+}
+
+.card-blue .card:hover .card-wrapper {
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+  color: #ffffff !important;
+}
+
+.card-blue .card:hover .card-wrapper .mbr-section-text {
+  color: #ffffff !important;
+}
+

@@ -1,0 +1,26 @@
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  background: #000000;
+  
+}
+
+.icon {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-medium {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5 {
+  line-height: 1.5;
+}
+

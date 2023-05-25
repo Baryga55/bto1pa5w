@@ -1,0 +1,126 @@
+.card-intro {
+  background-color: transparent;
+}
+
+.card-intro .card-wrapper {
+  display: flex;
+  padding: 0 1.5rem;
+}
+
+@media (max-width: 1600px) {
+  .card-intro .card-wrapper {
+    padding: 0;
+  }
+}
+
+.card-intro img {
+  width: 100%;
+}
+
+.card-intro .mbr-iconfont {
+  font-size: 3rem;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-intro .line {
+  width: 55px;
+  margin-bottom: 0.5rem;
+  height: 5px;
+  display: inline-block;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+}
+
+.card-intro .icon-wrapper {
+  margin: auto;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.card-intro h4 {
+  margin: 0;
+}
+
+.card-intro .card-text {
+  color: #999999;
+}
+
+.card-intro .mbr-text {
+  color: #000000;
+}
+
+.card-intro .card-title {
+  color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .card-intro .mbr-text {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-intro .card-wrapper {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-intro .card-wrapper .icon-wrapper {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-intro .mbr-text {
+    padding-bottom: 2rem;
+    max-width: 100%;
+  }
+}
+
+.card-intro H3 {
+  color: #787324;
+}
+
+.card-intro .mbr-section-title, .card-intro .title-wrapper {
+  color: #ffffff;
+}
+
+.card-intro .mbr-text, .card-intro .mbr-section-btn {
+  color: #999999;
+}
+
+.section-x2 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #191919;
+}
+
+.section-x2 .line {
+  width: 55px;
+  margin-bottom: 0.5rem;
+  height: 5px;
+  display: inline-block;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+}
+
+.section-x2 .mbr-text, .section-x2 .mbr-section-btn {
+  color: #999999;
+}
+
+.section-x2 img {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .section-x2 img {
+    width: 96%;
+  }
+}
+

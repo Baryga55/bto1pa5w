@@ -1,0 +1,26 @@
+.card-product {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-product .line {
+  width: 55px;
+  margin-bottom: 0.5rem;
+  height: 5px;
+  display: inline-block;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+}
+
+.card-product .mbr-text, .card-product .mbr-section-btn {
+  color: #999999;
+}
+
+.card-product img {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .card-product img {
+    width: 96%;
+  }
+}
+

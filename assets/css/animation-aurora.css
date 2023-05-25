@@ -1,0 +1,140 @@
+/* CSS Document */
+
+.animation-aurora {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.animation-aurora-one {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  -webkit-animation: onanimation-aurora-one 5s ease-in-out infinite alternate;
+  -moz-animation: animation-aurora-one 5s ease-in-out infinite alternate;
+  -ms-animation: animation-aurora-one 5s ease-in-out infinite alternate;
+  -o-animation: animation-aurora-one 5s ease-in-out infinite alternate;
+  animation: animation-aurora-one 5s ease-in-out infinite alternate;
+}
+
+@keyframes animation-aurora-one {
+  from {
+    box-shadow: 0 0 250px 20px #473C78;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #F72A3B;
+  }
+}
+
+.animation-aurora-two {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  -webkit-animation: animation-aurora-two 4s ease-in-out infinite alternate;
+  -moz-animation: animation-aurora-two 4s ease-in-out infinite alternate;
+  -ms-animation: animation-aurora-two 4s ease-in-out infinite alternate;
+  -o-animation: animation-aurora-two 4s ease-in-out infinite alternate;
+  animation: animation-aurora-two 4s ease-in-out infinite alternate;
+}
+
+@keyframes animation-aurora-two {
+  from {
+    box-shadow: 0 0 250px 20px #18C499;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #D8F05E;
+  }
+}
+
+.animation-aurora-three {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  -webkit-animation: animation-aurora-three 3s ease-in-out infinite alternate;
+  -moz-animation: animation-aurora-three 3s ease-in-out infinite alternate;
+  -ms-animation: animation-aurora-three 3s ease-in-out infinite alternate;
+  -o-animation: animation-aurora-three 3s ease-in-out infinite alternate;
+  animation: animation-aurora-three 3s ease-in-out infinite alternate;
+}
+
+@keyframes animation-aurora-three {
+  from {
+    box-shadow: 0 0 250px 20px #FFDD00;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #3E33FF;
+  }
+}
+
+.animation-aurora-four {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  -webkit-animation: animation-aurora-four 2s ease-in-out infinite alternate;
+  -moz-animation: animation-aurora-four 2s ease-in-out infinite alternate;
+  -ms-animation: animation-aurora-four 2s ease-in-out infinite alternate;
+  -o-animation: animation-aurora-four 2s ease-in-out infinite alternate;
+  animation: animation-aurora-four 2s ease-in-out infinite alternate;
+}
+
+@keyframes animation-aurora-four {
+  from {
+    box-shadow: 0 0 250px 20px #781848;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #F2BBE9;
+  }
+}
+
+.animation-aurora-five {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  -webkit-animation: animation-aurora-five 1s ease-in-out infinite alternate;
+  -moz-animation: animation-aurora-five 1s ease-in-out infinite alternate;
+  -ms-animation: animation-aurora-five 1s ease-in-out infinite alternate;
+  -o-animation: animation-aurora-five 1s ease-in-out infinite alternate;
+  animation: animation-aurora-five 1s ease-in-out infinite alternate;
+  animation-delay: 0.75;
+}
+
+@keyframes animation-aurora-five {
+  from {
+    box-shadow: 0 0 250px 20px #42F2A1;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #F4F6AD;
+  }
+}
+
